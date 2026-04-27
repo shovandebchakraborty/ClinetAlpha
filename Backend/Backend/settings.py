@@ -11,12 +11,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-temp-key')
 
 DEBUG = False
 
-ALLOWED_HOSTS = [
-    "localhost",
-    "127.0.0.1",
-    ".ngrok-free.dev",
-    "https://clientalphaapi.onrender.com/",  # replace this
-]
+ALLOWED_HOSTS = ["*"]
 
 # ========================
 # APPLICATIONS
